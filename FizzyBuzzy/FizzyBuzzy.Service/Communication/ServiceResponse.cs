@@ -8,17 +8,15 @@ namespace FizzyBuzzy.Service.Communication
     {
         public bool IsSuccess { get; set; }
         public string Message { get; set; }
-        public object Data { get; set; }
 
         public ServiceResponse()
         {
 
         }
-        public ServiceResponse(bool success, string message, object data)
+        public ServiceResponse(bool success, string message)
         {
             IsSuccess = success;
             Message = message;
-            Data = data;
         }
     }
 }
