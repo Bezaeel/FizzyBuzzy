@@ -9,10 +9,6 @@
 - Docker
 - XUnit
 
-## Technical Decisions 
-
- - Separat
-
 ## Running the application
   - Open the project in visual studio
   - Click F5
@@ -20,7 +16,6 @@
 ## Sample requests and responses
 
 [postman collection](https://www.getpostman.com/collections/bdf6abf842566c81f1fd)
-
     
 
 ## Possible improvements
