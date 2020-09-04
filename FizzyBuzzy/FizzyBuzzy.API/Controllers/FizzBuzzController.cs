@@ -27,10 +27,6 @@ namespace FizzyBuzzy.API.Controllers
         [HttpGet("generate/{num}")]
         public async Task<IActionResult> FizzBuzz(int num)
         {
-            if(num == null)
-            {
-                return BadRequest("number cannot be null");
-            }
             if(num < 1 || num > 100)
             {
                 return BadRequest("number cannot be less than 1 or greater than 100");
